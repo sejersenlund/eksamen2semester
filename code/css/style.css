@@ -15,8 +15,9 @@ body {
 }
 
 .section {
-	background-image:url("../images/agfposter.png");
+	background-image:url("../images/backgroundtwo.png");
 	background-size: cover;
+	
 }
 
 #indhold {
