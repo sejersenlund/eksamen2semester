@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Eksempel</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+<link href="js/js.js" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="fullpage">
+
+	<div class="section">
+	<div class="forside">
+		<div id="indhold"></div>
+		<div class="flexi">
+		<a href="camera.html">
+			<div class="lilleknap"><img src="images/camera.svg" alt="camera"><h2>Få et fiktivt billede med en AGF-spiller</h2></div></a>
+		<a href="shared.html"><div class="lilleknap"><img src="images/share.svg" alt="sharefunkitonen"><h2>Del dine AGF-billeder og få dem printet her på stadion</h2></div></a>
+		<a href="#quizstart"><div class="storknap"><img src="images/answer.svg" alt="quizlogo"><h2>Find ud af, hvilken AGF-spiller du minder mest om, og få lavet dit eget fodboldkort</h2></div></a>
+		</div>
+	</div>
+	<div class="whitebox">
+		<a href="http://www.hummel.dk" target="_blank"><img src="images/hummelogo.png" alt="hummellogo"></a>
+		<a href="http://www.agf.dk" target="_blank"><img src="images/gotisk.png" alt="AGF logo"></a>
+	</div>
+	</div>
+
+<div id="quizstart"></div>
+	<div class="section">
+	<div class="pageonecontainertwo"><img class="weight" src="images/weight.jpg" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du stærk eller hurtig?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/strong.png" width="30px" alt="strong"></div>
+	 	<input type="range" min="1" max="3" value="2" class="slider" id="sliderone">
+		<div class="icon"><img src="images/fast.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+	  <div id="section1" class="demo">
+	  <a href="#section2"><span></span><span></span></a></div>
+	</div>
+
+	<div id="section2"></div>
+	<div class="section">
+	<div class="pageonecontainertwo"><img class="weight" src="images/soccer.png" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du bedst med hænderne eller fødderne?</div>
+		<div class="slidecontainer">
+		<div class="icon2"><img src="images/hands.png" width="30px" alt="strong"></div>
+		<input type="range" min="1" max="3" value="2" class="slider" id="slidertwo">
+		<div class="icon2"><img src="images/feet.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+		<div id="section1" class="demo">
+	    <a href="#section3"><span></span><span></span></a></div>
+	</div>
+	
+	<div id="section3"></div>
+	<div class="section">
+	<div class="pageonecontainertwo"><img class="weight" src="images/tackleimg.png" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du bedst til at drible med bolden, eller tackle modstanderen?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/dribble.png" width="30px" alt="strong"></div>
+		<input type="range" min="1" max="3" value="2" class="slider" id="sliderthree">
+		<div class="icon"><img src="images/tackle.png" width="55px" alt="strong"></div>
+		</div>
+	</div>
+		<div id="section1" class="demo">
+	    <a href="#section4"><span></span><span></span></a></div>
+	</div>
+
+	<div id="section4"></div>
+	<div class="section">
+	<div class="pageonecontainertwo"><img class="weight" src="images/goal.png" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Afleverer du til dine medspillere eller skyder du selv på målet?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/aflevere.png" width="30px" alt="strong"></div>
+		<input type="range" min="1" max="3" value="2" class="slider" id="sliderfour">
+		<div class="icon"><img src="images/score.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+		 <div id="section1" class="demo">
+                <a href="#section5"><span></span><span></span><button class="button" type="button" onclick="showplayer();"></button></a></div>
+        </div>
+
+        <div id="section5"></div>
+
+        <div class="section">
+			<button type="button" id="tjekSpiller"><h3>Se hvem du minder om?</h3></button>
+        </div>
+
+    </div>
+
+    <script>
+        new fullpage('#fullpage', {
+            licenseKey: '1D6D99E8-3D444AD8-8BB133DE-16F57C4E',
+        });
+
+    </script>
+    <script src="js/js.js"></script>
+
+
+</body>
+
+</html>
