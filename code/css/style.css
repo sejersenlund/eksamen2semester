@@ -19,17 +19,22 @@ body {
 	background-size: cover;
 }
 
-#logo {
-	margin-left: auto;
-	margin-right: auto;
-	align-self: center;
-	z-index: 100;
-	
-}
 
 .flexcontainerone {
 	width: 100vw;
 	height: 100vh;
+}
+
+.social {
+	align-self: center;
+	width: 200px;
+	margin-top: 40vh;
+}
+
+#logo {
+    align-self: center;
+    z-index: 100;
+	background-color: rgba(219,219,219,0.50);
 }
 
 #optionone {
@@ -41,7 +46,7 @@ body {
 #optiontwo {
 	width: 50vw;
 	height: 100vh;
-	background-color: rgba(219,219,219,0.50);
+	background-color: rgba(255,255,255,0.50);
 }
 
 #indhold {
