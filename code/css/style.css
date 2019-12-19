@@ -16,10 +16,6 @@ a {
 	text-decoration: none;
 }
 
-.button {
-	display: none;
-}
-
 .section {
 	background-image:url("../images/backgroundtwo.png");
 	background-size: cover;
@@ -34,27 +30,36 @@ a {
 	width: 200px;
 }
 
-#optionone {
+.optionone {
 	background-color: rgba(219,219,219,0.50);
 }
 
-#optiontwo {
+.optiontwo {
+	background-color: rgba(181,181,181,0.40);
+}
+
+.logo {
+    position: absolute; 
+}
+
+#optiononepagetwo {
+	background-color: rgba(219,219,219,0.50);
+}
+
+#optiontwopagetwo {
+	background-color: rgba(181,181,181,0.40);
+}
+
+#logopagetwo {
+	background-color: rgba(181,181,181,0.40);
+}
+
+.optiononelvltwo {
 	background-color: rgba(181,181,181,0.40);
 }
 
 .flexcontainertwo {
 	display: flex;
-	flex-direction: row;
-	width: 100vw;
-	height: 100vh;
-}
-
-#left {
-	background-color: rgba(181,181,181,0.40);
-}
-
-#insta {
-	background-color: rgba(227,227,227,0.60);
 }
 
 .energione {
@@ -64,7 +69,7 @@ a {
 }
 
 @media (max-width: 390px) {
-	#optionone, #optiontwo {
+	.optionone, .optiontwo {
 		flex-direction: column;
 		width: 50vw;
 		height: 100vh;
@@ -77,7 +82,7 @@ a {
 		height: 100vh;
 	}
 	
-	#logosize {
+	.logosize {
 		width: 200px;
 		margin-top: 40px;
 	}
@@ -93,24 +98,14 @@ a {
 		margin-top: 25vh;
 	}
 	
-	#left {
+	.optiononelvltwo {
 		width: 100vw;
-		height: 50vh;
+		height: 100vh;
 	}
 	
-	#insta {
-		width: 100vw;
-		height: 50vh;
-	}
-	
-	.energione {
-		top: 20vh;
-	}
-}
-
 @media (min-width: 390px) {
 	
-	#optionone, #optiontwo {
+	.optionone, .optiontwo {
 		flex-direction: column;
 		width: 50vw;
 		height: 100vh;
@@ -135,6 +130,13 @@ a {
 		background: rgba(200,200,200,0.50);
 	}
 	
+	.optionone, .optiontwo {
+		flex-direction: column;
+		width: 50vw;
+		height: 100vh;
+		margin-top: 30vh;
+	}
+	
 	.social {
 		width: 130px;
 		margin-top: 25vh;
@@ -147,18 +149,19 @@ a {
 	
 	#left {
 		width: 100vw;
-		height: 50vh;
+		height: 100vh;
 	}
 	
 	#insta {
-		width: 100vw;
-		height: 50vh;
+		width: 0vw;
+		height: 0vh;
 	}
 	
 	.energione {
 		top: 30vh;
-		width: 80vw;
+		width: 100vw;
 	}
+	
 }
 
 @media (min-width: 1024px) {
