@@ -43,6 +43,8 @@ a {
 }
 
 .flexcontainertwo {
+	display: flex;
+	flex-direction: row;
 	width: 100vw;
 	height: 100vh;
 }
@@ -57,7 +59,8 @@ a {
 
 .energione {
 	transform: rotate(-90deg);
-	width: 70vw;
+	max-width: 100%;
+    position: relative;
 }
 
 @media (max-width: 390px) {
@@ -98,6 +101,10 @@ a {
 	#insta {
 		width: 100vw;
 		height: 50vh;
+	}
+	
+	.energione {
+		top: 20vh;
 	}
 }
 
@@ -147,9 +154,18 @@ a {
 		width: 50vw;
 		height: 100vh;
 	}
+	
+	.energione {
+		top: 30vh;
+		width: 80vw;
+	}
 }
 
 @media (min-width: 1024px) {
+	.energione {
+		top: 30vh;
+		width: 100vw;
+	}
 	
 }
 
