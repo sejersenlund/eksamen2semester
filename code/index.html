@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slideshow.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
 <link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css">
@@ -30,7 +31,26 @@
 	<div class="section">
 	<div class="flexcontainerone">
 		<div class="logo"><img class="logosize" src="images/arlaoko.png" alt="Arlalogo"></div>
-		<div class="optiononelvltwo"></div>
+		<div class="optiononelvltwo">
+		
+		<div class="mySlides fade">
+		  	<img class="energy" alt="Energi Kærgården" src="images/kgenergi.png">
+		</div>
+
+		<div class="mySlides fade">
+		  	<a href="https://www.instagram.com/p/B5Iu9syF3hR/" target="_blank"><img class="someopslag" alt="Instagram Opslag" src="images/instaopslagonemobile.png"></a>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<br>
+
+		<div style="text-align:center">
+		  	<span class="dot" onclick="currentSlide(1)"></span> 
+		  	<span class="dot" onclick="currentSlide(2)"></span> 
+		</div>
+		</div>
+		</div>
 	</div>
 	</div>
 
@@ -58,6 +78,7 @@
 
     </script>
     <script src="js/js.js"></script>
+	<script src="js/slider.js"></script>
 
 </div>
 </body>

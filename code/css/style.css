@@ -103,6 +103,12 @@ a {
 		height: 100vh;
 	}
 	
+	.energy, .someopslag {
+		height: 100vw;
+		text-align: center;
+		margin-top: 35vh;
+	}
+	
 @media (min-width: 390px) {
 	
 	.optionone, .optiontwo {
