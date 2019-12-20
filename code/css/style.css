@@ -110,7 +110,6 @@ a {
 	}
 	
 @media (min-width: 390px) {
-	
 	.optionone, .optiontwo {
 		flex-direction: column;
 		width: 50vw;
@@ -118,55 +117,6 @@ a {
 		margin-top: 30vh;
 	}
 	
-	.flexcontainerone {
-		display: flex;
-		width: 100vw;
-		height: 100vh;
-	}
-	
-	#logosize {
-		width: 200px;
-		margin-top: 40px;
-	}
-	
-	.logo {
-		top: 0;
-		width: 100vw;
-		height: 30vh;
-		background: rgba(200,200,200,0.50);
-	}
-	
-	.optionone, .optiontwo {
-		flex-direction: column;
-		width: 50vw;
-		height: 100vh;
-		margin-top: 30vh;
-	}
-	
-	.social {
-		width: 130px;
-		margin-top: 25vh;
-	}
-	
-	.heading {
-		text-align: center;
-		
-	}
-	
-	#left {
-		width: 100vw;
-		height: 100vh;
-	}
-	
-	#insta {
-		width: 0vw;
-		height: 0vh;
-	}
-	
-	.energione {
-		top: 30vh;
-		width: 100vw;
-	}
 	
 }
 
