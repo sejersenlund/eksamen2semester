@@ -41,6 +41,7 @@ a {
 
 .logo {
     position: absolute; 
+	background-color: rgba(181,181,181,0.40);
 }
 
 .flexcontainerstart {
@@ -84,8 +85,70 @@ a {
 		height: 100vh;
 	}
 	
+	.optionone, .optiontwo {
+		flex-direction: column;
+		width: 50vw;
+		height: 70vh;
+		margin-top: 30vh;
+	}
+	
+	.logosize {
+		width: 200px;
+		margin-top: 40px;
+	}
+	
+	.logo {
+		width: 100vw;
+		height: 30vh;
+		background: rgba(200,200,200,0.50);
+	}
+	
+	.social {
+		width: 130px;
+		margin-top: 25vh;
+	}
+	
 	.flexcontainerone {
 		display: flex;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.optiononelvltwo {
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	#logopagethree {
+		width: 100vw;
+		height: 30vh;
+	}
+	
+	#optiononepagethree {
+		width: 100vw;
+		height: 70vh;
+	} 
+	
+	.energy, .someopslag {
+		height: 100vw;
+		text-align: center;
+		margin-top: 35vh;
+	}
+	
+	.flexcontainertwo {
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.optionlvlthree {
+		width: 100vw;
+		height: 70vh;
+		margin-top: 30vh;
+	}
+	
+	
+@media only screen and (min-width: 395px) {
+	.flexcontainerstart {
 		width: 100vw;
 		height: 100vh;
 	}
@@ -112,30 +175,7 @@ a {
 		width: 130px;
 		margin-top: 25vh;
 	}
-	
-	.optiononelvltwo {
-		width: 100vw;
-		height: 100vh;
-	}
-	
-	#logopagethree {
-		width: 100vw;
-		height: 30vh;
-	}
-	
-	#optiononepagethree {
-		width: 100vw;
-		height: 70vh;
-	} 
-	
-	.energy, .someopslag {
-		height: 100vw;
-		text-align: center;
-		margin-top: 35vh;
-	}
-	
-@media only screen and (min-width: 390px) {
-	
+
 }
 
 @media (min-width: 1024px) {
