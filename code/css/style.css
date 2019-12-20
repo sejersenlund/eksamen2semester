@@ -68,6 +68,10 @@ a {
 	background-color: rgba(181,181,181,0.40);
 }
 
+.pagetwo {
+	background-color: rgba(181,181,181,0.40);
+}
+
 .flexcontainertwo {
 	display: flex;
 }
@@ -78,7 +82,7 @@ a {
     position: relative;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 250px) {
 	
 	.flexcontainerstart {
 		width: 100vw;
@@ -148,42 +152,42 @@ a {
 	
 	
 @media only screen and (min-width: 395px) {
-	.flexcontainerstart {
+	
+	.optiononelvltwo {
 		width: 100vw;
-		height: 100vh;
 	}
 	
-	.optionone, .optiontwo {
-		flex-direction: column;
-		width: 50vw;
-		height: 70vh;
-		margin-top: 30vh;
+	.energy, .someopslag {
+		width: 60vw;
+		height: auto;
 	}
 	
-	.logosize {
-		width: 200px;
-		margin-top: 40px;
-	}
+}
 	
-	.logo {
-		width: 100vw;
-		height: 30vh;
-		background: rgba(200,200,200,0.50);
-	}
-	
-	.social {
-		width: 130px;
-		margin-top: 25vh;
-	}
+@media (min-width: 700px) {
 
+	.energy, .someopslag {
+		width: 40vw;
+		height: auto;
+	}
+	
 }
 
 @media (min-width: 1024px) {
+
+	.energy, .someopslag {
+		width: 25vw;
+		height: auto;
+	}
 	
 }
 
 @media (min-width: 1400px) {
-
+	
+	.energy, .someopslag {
+		width: 20vw;
+		height: auto;
+	}
 }
 
 @media (min-width: 2140px) {
