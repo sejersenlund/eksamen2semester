@@ -110,6 +110,7 @@ a {
 	}
 	
 @media (min-width: 390px) {
+	
 	.optionone, .optiontwo {
 		flex-direction: column;
 		width: 50vw;
@@ -117,6 +118,22 @@ a {
 		margin-top: 30vh;
 	}
 	
+	.flexcontainerone {
+		display: flex;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.logosize {
+		width: 200px;
+		margin-top: 40px;
+	}
+	
+	.logo {
+		width: 100vw;
+		height: 30vh;
+		background: rgba(200,200,200,0.50);
+	}
 	
 }
 
