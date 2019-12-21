@@ -76,6 +76,10 @@ a {
 	display: flex;
 }
 
+.flexcontainerthree {
+	display: flex;
+}
+
 .energione {
 	transform: rotate(-90deg);
 	max-width: 100%;
@@ -144,16 +148,28 @@ a {
 		height: 100vh;
 	}
 	
-	.optionlvlthree {
+	.optiononelvlthree {
 		width: 100vw;
-		height: 70vh;
-		margin-top: 30vh;
+		height: 100vh;
 	}
 	
+	.optiononelvlfour {
+		width: 100vw;
+		height: 70vh;
+	}
+	
+	.flexcontainerthree {
+		width: 100vw;
+		height: 100vh;
+	}
 	
 @media only screen and (min-width: 395px) {
 	
 	.optiononelvltwo {
+		width: 100vw;
+	}
+	
+	.optiononelvlthree {
 		width: 100vw;
 	}
 	
