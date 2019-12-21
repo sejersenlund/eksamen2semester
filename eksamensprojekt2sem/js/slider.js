@@ -3,9 +3,11 @@
 var slideIndex = 1;
 var slideIndex2 = 1;
 var slideIndex3 = 1;
+var slideIndex4 = 1;
 showSlides(slideIndex);
 showSlides2(slideIndex2);
 showSlides3(slideIndex3);
+showSlides4(slideIndex4);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -35,6 +37,16 @@ function plusSlides3(n) {
 // Thumbnail image controls
 function currentSlide3(n) {
     showSlides3(slideIndex3 = n);
+}
+
+// Next/previous controls
+function plusSlides4(n) {
+    showSlides4(slideIndex4 += n);
+}
+
+// Thumbnail image controls
+function currentSlide4(n) {
+    showSlides4(slideIndex4 = n);
 }
 
 
@@ -99,4 +111,25 @@ function showSlides3(n) {
     }
     slides[slideIndex3 - 1].style.display = "block";
     dots[slideIndex3 - 1].className += " active";
+}
+
+// Function til slideshow 3
+function showSlides4(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides4");
+    var dots = document.getElementsByClassName("dot4");
+    if (n > slides.length) {
+        slideIndex4 = 1
+    }
+    if (n < 1) {
+        slideIndex4 = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex4 - 1].style.display = "block";
+    dots[slideIndex4 - 1].className += " active";
 }

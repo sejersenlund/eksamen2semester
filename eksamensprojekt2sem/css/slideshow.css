@@ -7,7 +7,8 @@
 
 .mySlides,
 .mySlides2,
-.mySlides3 {
+.mySlides3,
+.mySlides4 {
     display: none;
 }
 
@@ -48,12 +49,24 @@
   user-select: none;
 }
 
-.prev2, .prev, .prev3 {
+.prev4, .next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: 10px;
+  padding: 16px;
+  color: white;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev2, .prev, .prev3, .prev4 {
 	left: 0;
 }
 
 /* Position the "next button" to the right */
-.next, .next2, .next3 {
+.next, .next2, .next3, .next4 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -98,6 +111,16 @@
   transition: background-color 0.6s ease;
 } 
 
+.dot4 {
+  position: relative;
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} 
 
 .active, .dot:hover {
   background-color: #717171;
